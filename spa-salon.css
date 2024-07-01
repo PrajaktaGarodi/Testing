@@ -87,17 +87,10 @@ float: left;
     font-weight: 300;
     
 }
-.buttons{
-    
-    height: 80px;
-    float: left;
-    margin-left: 500px;
+.button{
+    padding: 200px;
 }
- .buttons input[type="button"]{
-    padding: 10px;
-    margin: 20px;
-    
- } 
+
  .details{
     width: 92.7%;
     height: 250px;
