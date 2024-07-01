@@ -7,9 +7,11 @@
     background-image: url(Images/Herospa.webp);
     height: 100vh;
     width: 100%;
+    float: left;
+    background-color: beige;
 
   }
-  .container img{
+  .section img{
     color: aliceblue;
     float: left;
     padding: 20px;
@@ -17,40 +19,108 @@
     
 
   }
-.icons i{
+.section .icons i{
     float: left;
      font-size: 30px; 
      color: aliceblue;
      padding: 20px;
-     /* height: 20px;    */
-     /* width: 10px; */
+     height: 20px;   
+     width: 10px;
 }
-.text h3{
+.section .text h3{
     float: left;
     padding: 20px;
-    font-size: 10px;
+    font-size: 15px;
     color: aliceblue;
     padding-left: 30%;
 }
+
+.section{
+    width: 100%;
+    height: 80px;
+    float: left;
+    /* color: brown; */
+    /* background-color: beige; */
+    border-bottom: 1px solid aliceblue;
+
+}
 .section1{
     width: 100%;
+    /* background-color: beige; */
+    border-bottom: 1px solid aliceblue;
+    
     float: left;
-    text-align: center;
 }
 .section1 ul{
-     float: left;
-    color: aliceblue;
-    list-style: none;
-    
-
-}
-
-.section1 li a{
     float: left;
-    padding: 20px 20px 20px 20px;
-    width: 100%;
-    
-    
-}
+list-style: none;
+text-decoration: none;
+padding-left: 250px;
 
     
+
+}
+
+.section1 li {
+    float: left;
+    padding: 15px;
+    /* text-align: ; */
+}
+
+.section1 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.bold-text{
+    height: 23 0px;
+float: left;
+}
+.bold-text h1{
+    text-align: center;
+    /* width: 100px */
+    /* margin-top: 500px; */
+    padding-top: 2%;
+    padding-right: 300px;
+    padding-left: 300px;
+    font-size: 70px;
+    color: aliceblue;
+    font-weight: 300;
+    
+}
+.buttons{
+    
+    height: 80px;
+    float: left;
+    margin-left: 500px;
+}
+ .buttons input[type="button"]{
+    padding: 10px;
+    margin: 20px;
+    
+ } 
+ .details{
+    width: 92.7%;
+    height: 250px;
+    float: left;
+    /* background-color: aqua; */
+    padding-left: 150px;
+ } 
+ .details .box{
+width: 20%;
+height: 150px;
+/* background-color:darkblue;    */
+float: left;
+/* margin: 50px; */
+margin-left: 80px;
+margin-top: 50px;
+ }
+ .box h4{
+    text-align: center;
+    color: bisque;
+    font-size: 20px;
+    padding-bottom: 10px;
+ } 
+ .box p{
+    text-align: center;
+    color: aliceblue
+ }
