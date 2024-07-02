@@ -87,8 +87,12 @@ float: left;
     font-weight: 300;
     
 }
-.button{
-    padding: 200px;
+.buttons{
+    padding-left: 500px;
+}
+.buttons input[type="button"]{
+    padding: 20px;
+    margin: 15px;
 }
 
  .details{
