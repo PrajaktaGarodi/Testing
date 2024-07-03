@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
    
 }
 .container {
@@ -167,4 +168,142 @@ margin-top: 50px;
     padding-right: 350px;
     padding-top: 40px;
     
+}
+.button{
+    padding-left: 400px;
+    float: left;
+
+}
+.button input[type="button"]{
+    /* padding: 1cqh;    */
+    margin-top: 100px;
+    float: left;
+    display: flex;
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+    height: 50px;
+    width: 200px;
+    font-style: calc(bold);
+}
+.container2{
+    width: 100%;
+    height: 110vh;
+    background-color: #E5EEF0;
+    float: left;
+}
+.con-img3{
+    height: 555px;
+    width: 50%;
+    /* background-color: darkblue; */
+    float: left;
+}
+.con-img3 img{
+    margin-top: 80px;
+    height: 555px;
+    width: 555px;
+    margin-left: 136px;
+    
+}
+.con-pra{
+    width: 50%;
+    height: 555px;
+    /* background-color: aqua; */
+    float: left;
+    margin-top: 80px;
+}
+.con-pra h1{
+    padding-top: 100px;
+    padding-left: 90px;
+    font-size: 50px;
+    font-weight: 200;
+}
+.con-pra p{
+    padding-top: 25px;
+    padding-left: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 50px;
+    line-height: 1.7em;
+    font-size: 20px;
+    color:#3B3E3E;
+    font-weight: 100;
+}
+.con-pra input[type="button"]
+{
+    height: 50px;
+    width: 150px;
+    /* padding-left: 90px; */
+    margin-left: 90px;
+    margin-top: 20px;
+    color: black;
+    font-size: bold;
+background: transparent;
+
+}
+.container3{
+    width: 100%;
+    height: 110vh;
+    float: left;
+
+}
+.con3-img {
+    /* padding: 80px; */
+}
+.con3-img img{
+    height: 568px;
+    width: 1014px;
+    margin-left:189px;
+    margin-top: 80px;
+}
+.container4{
+    width: 100%;
+    height: 100vh;
+    float: left;
+    background-color:  #E5EEF0;
+    padding-top: 60px;
+    
+
+}
+.con4-pra{
+
+    height: 550px;;
+    width: 50%;
+    float: left;
+    /* background-color: cornflowerblue;     */
+    padding-left: 89px;
+    
+}
+/* .con4-pra input[type="bUtton"]{
+    float: left;
+} */
+.con4-pra h1{
+    padding-top: 65px;
+}
+.con4-pra p{
+    padding-top: 30px;
+    line-height: 1.7;
+    padding-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:#3B3E3E;
+    font-weight: 100;
+}
+.con4-img{
+    float: left;
+    height: 500px;
+    width: 50%;
+
+}
+.con4-img  img{
+    height: 475px;
+    width: 100%
+    float: left;
+    margin-left: 50px;
+
+}
+.con4-pra input[type="button"]{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    background: transparent;
 }
