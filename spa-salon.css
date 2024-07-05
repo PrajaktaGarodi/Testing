@@ -10,6 +10,8 @@
     width: 100%;
     float: left;
     background-color: beige;
+    
+
 
   }
   .section img{
@@ -49,9 +51,15 @@
     width: 100%;
     /* background-color: beige; */
     border-bottom: 1px solid aliceblue;
-    
     float: left;
+    /* position: sticky;
+    top: 0px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0; */
 }
+
 .section1 ul{
     float: left;
 list-style: none;
@@ -295,8 +303,7 @@ background: transparent;
 
 }
 .con4-img  img{
-    height: 475px;
-    width: 100%
+    height: 475px; 
     float: left;
     margin-left: 50px;
 
@@ -306,4 +313,70 @@ background: transparent;
     height: 50px;
     width: 150px;
     background: transparent;
+}
+.container5{
+    height: 105vh;
+    width: 100%;
+    background-color: #FFFFFF;
+    float: left;
+}
+.img5{
+    height: 554px;
+    width: 554px;
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.img5 img{
+    height: 554px;
+    width: 554px;
+    
+}
+.text{
+    height: 554px;
+    width: 554px;
+    /* background-color: aqua; */
+    float: left;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.text h1{
+    padding-left: 80px;
+    padding-top: 60px;
+    font-weight: 100;
+    font-size: 30px;
+    
+}
+.text p{
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-top: 30px;
+    line-height: 1.5;
+    padding-right: 50px;
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color:#3B3E3E;
+}
+.text input[type="button"]{
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    background: transparent;
+    margin-left: 80px;
+    font-weight: 600;
+    transition: .5s ease-in-out;
+
+}
+.text input[type="button"]:hover{
+    background-color: black;
+    color: whitesmoke;
+
+}
+.container6{
+    width: 100%;
+    height: 100vh;
 }
