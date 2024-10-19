@@ -28,6 +28,11 @@
     font-family: 'Times New Roman', Times, serif;
 
   }
+
+  .error {
+  color: red;
+  font-style: italic;
+}
 </style>
 
 <body>
@@ -130,18 +135,10 @@
                   </div>
 
 
-
-
-
-
-
-
-
-
-
                   <div class="d-flex justify-content-evenly pt-3">
                     <button type="reset" class="btn btn-light btn-lg">Reset All</button>
-                    <button type="submit" name="submit" class="btn btn-outline-secondary btn-lg ms-2">Submit Form</button>
+                    <button type="submit" name="submit" class="btn btn-outline-secondary btn-lg ms-2">Submit
+                      Form</button>
                   </div>
                 </form>
               </div>
@@ -155,11 +152,10 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-  <script src="register_form.js"></script>
-  <script src="js/jquery-3.7.1.js"></script>
   <script src="js/jquery-3.7.1.min.js"></script>
-  <script src="js/jquery-ui.min.js"></script>
   <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="register_form.js"></script>
 </body>
 
 </html>
