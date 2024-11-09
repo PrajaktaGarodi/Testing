@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple form Bootstrap</title>
+
+    <link rel="stylesheet" href="/Modules/bootstrap/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <form action="">
+          <div class="mb-3">
+            <label for="name" class="form-label">Name : </label>
+            <input
+              type="text"
+              class="form-control"
+              required
+              pattern="[a-zA-Z]+"
+              title="Enter your valid name"
+            />
+            <div class="form-text">Enter your full name</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Email :</label>
+            <input type="email" class="form-control" required />
+            <div class="form-text">Enter your email address</div>
+          </div>
+
+          <div class="mb-3">
+            <label for="password" class="form-label">Password :</label>
+            <input
+              type="password"
+              class="form-control"
+              pattern="^(?=.\d)(?=.[a-z])(?=.[A-Z])(?!.\s).*$
+            "
+              required
+              title="Password (UpperCase, LowerCase and Number)"
+            />
+            <div class="form-text">Enter your password</div>
+          </div>
+          <div class="mb-3">
+            <input
+              type="submit"
+              class="btn btn-primary border border-2 border-info text-light"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
